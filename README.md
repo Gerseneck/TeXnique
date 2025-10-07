@@ -10,4 +10,4 @@ A LaTeX speed-typesetting game. How many formulas can you recreate in three minu
 
 ## Contribution
 
-Contributors are welcome! If you'd like to contribute a problem, you can do so via [this form](https://forms.gle/DXjPeTL5DbJBhKRv8) or submit a pull request to this repository directly.
+This is a custom fork of TeXnique, if you want to contribute to the actual project you can do so via [this form](https://forms.gle/DXjPeTL5DbJBhKRv8) or submit a pull request to this repository directly.
