@@ -7,3 +7,7 @@ A LaTeX speed-typesetting game. How many formulas can you recreate in three minu
 [HackerNews discussion](https://news.ycombinator.com/item?id=20814774)
 
 [Reddit discussion](https://www.reddit.com/r/math/comments/czwusd/texnique_a_latex_typesetting_game/) 
+
+## Contribution
+
+Contributors are welcome! If you'd like to contribute a problem, you can do so via [this form](https://forms.gle/DXjPeTL5DbJBhKRv8) or submit a pull request to this repository directly.
