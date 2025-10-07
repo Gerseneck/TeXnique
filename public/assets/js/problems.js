@@ -915,5 +915,15 @@ let problems = [
 		"title": "Gauss's Law",
 		"description": "AP Physics C E&M",
 		"latex": String.raw`\Phi_E = \oiint_S \mathbf{E} \cdot \mathrm{d}\mathbf{A} = \frac{Q}{\varepsilon_0}`
-	}
+	},
+    {
+        "title": "Curvature Equation",
+        "description": "Simple yet tedious",
+        "latex": String.raw`\kappa = \frac{\|\mathbf{r}'(t) \times \mathbf{r}''(t)\|}{\|\mathbf{r}'(t)\|^3}`
+    },
+    {
+        "title": "Cubic Formula",
+        "description": "Why would anyone use this",
+        "latex": String.raw`x = \sqrt[3]{\left(-\frac{b^3}{27a^3}+\frac{bc}{6a^2}-\frac{d}{2a}\right)+\sqrt{\left(-\frac{b^3}{27a^3}+\frac{bc}{6a^2}-\frac{d}{2a}\right)^2+\left(\frac{c}{3a}-\frac{b^2}{9a^2}\right)^3}} + \sqrt[3]{\left(-\frac{b^3}{27a^3}+\frac{bc}{6a^2}-\frac{d}{2a}\right)-\sqrt{\left(-\frac{b^3}{27a^3}+\frac{bc}{6a^2}-\frac{d}{2a}\right)^2+\left(\frac{c}{3a}-\frac{b^2}{9a^2}\right)^3}} - \frac{b}{3a}`
+    }
 ];
