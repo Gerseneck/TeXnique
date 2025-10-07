@@ -916,14 +916,32 @@ let problems = [
 		"description": "AP Physics C E&M",
 		"latex": String.raw`\Phi_E = \oiint_S \mathbf{E} \cdot \mathrm{d}\mathbf{A} = \frac{Q}{\varepsilon_0}`
 	},
-    {
-        "title": "Curvature Equation",
-        "description": "Simple yet tedious",
-        "latex": String.raw`\kappa = \frac{\|\mathbf{r}'(t) \times \mathbf{r}''(t)\|}{\|\mathbf{r}'(t)\|^3}`
-    },
-    {
-        "title": "Cubic Formula",
-        "description": "Why would anyone use this",
-        "latex": String.raw`x = \sqrt[3]{\left(-\frac{b^3}{27a^3}+\frac{bc}{6a^2}-\frac{d}{2a}\right)+\sqrt{\left(-\frac{b^3}{27a^3}+\frac{bc}{6a^2}-\frac{d}{2a}\right)^2+\left(\frac{c}{3a}-\frac{b^2}{9a^2}\right)^3}} + \sqrt[3]{\left(-\frac{b^3}{27a^3}+\frac{bc}{6a^2}-\frac{d}{2a}\right)-\sqrt{\left(-\frac{b^3}{27a^3}+\frac{bc}{6a^2}-\frac{d}{2a}\right)^2+\left(\frac{c}{3a}-\frac{b^2}{9a^2}\right)^3}} - \frac{b}{3a}`
-    }
+	{
+		"title": "Curvature Equation",
+		"description": "Simple yet tedious",
+		"latex": String.raw`\kappa = \frac{\|\mathbf{r}'(t) \times \mathbf{r}''(t)\|}{\|\mathbf{r}'(t)\|^3}`
+	},
+	{
+		"title": "Cubic Formula",
+		"description": "Why would anyone use this",
+		"latex": String.raw`x = \sqrt[3]{\left(-\frac{b^3}{27a^3}+\frac{bc}{6a^2}-\frac{d}{2a}\right)+\sqrt{\left(-\frac{b^3}{27a^3}+\frac{bc}{6a^2}-\frac{d}{2a}\right)^2+\left(\frac{c}{3a}-\frac{b^2}{9a^2}\right)^3}} + \sqrt[3]{\left(-\frac{b^3}{27a^3}+\frac{bc}{6a^2}-\frac{d}{2a}\right)-\sqrt{\left(-\frac{b^3}{27a^3}+\frac{bc}{6a^2}-\frac{d}{2a}\right)^2+\left(\frac{c}{3a}-\frac{b^2}{9a^2}\right)^3}} - \frac{b}{3a}`
+	},
+	{
+		"title": "General Relativity",
+		"description": "Relativity! Einstein! (Not E=mc^2)",
+		"latex": String.raw`G_{\mu \nu} = 8 \pi G(T_{\mu \nu} + \rho_\Lambda g_{\mu \nu})`
+	},
+	{
+		"title": "The Standard Model(incomplete)",
+		"description": "Particles to universe",
+		"latex": String.raw`\mathcal{L}_{\mathrm{SM}}=\frac14\mathbf{W}_{\mu\nu}\cdot \mathbf{W}^{\mu\nu}-\frac14B_{\mu\nu}B^{\mu\nu}-\frac14G_{\mu\nu}^aG_a^{\mu\nu}+\bar L\gamma^\mu(\mathcal{i}\partial_\mu-\frac12g\tau\cdot\mathbf{W}_\mu-\frac12g'YB_\mu)L+\bar R\gamma^\mu(\mathcal{i}\partial_\mu-\frac12g'YB_\mu)R+\frac12|(\mathcal{i\partial_\mu-\frac12g\tau}\cdot\mathbf{W}_\mu-\frac12g'YB_\mu)\phi|^2-V(\phi)+g''(\bar q \gamma^\mu T_aq)G_\mu^a+(G_1\bar L\phi R+G_2\bar L\phi_cR+h.c.)`
+
+	},
+	{
+		"title": "The Callan-Symanzik equation",
+		"description": "",
+		"latex": String.raw`\left[M\frac{\partial}{\partial M}+\beta(g)\frac{\partial}{\partial g}+n\gamma\right]G^n(x_1,x_2,\dots,x_n;M,g)=0`
+
+	}
+	
 ];
