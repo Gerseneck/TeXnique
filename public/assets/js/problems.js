@@ -910,5 +910,10 @@ let problems = [
 		"title": "Cartan's magic formula",
 		"description": "A cool little magic trick",
 		"latex": String.raw`\mathcal{L}_X = \mathrm{d} \circ \iota_X + \iota_X \circ \mathrm{d}`
+	},
+	{
+		"title": "Gauss's Law",
+		"description": "AP Physics C E&M",
+		"latex": String.raw`\Phi_E = \oiint_S \mathbf{E} \cdot \mathrm{d}\mathbf{A} = \frac{Q}{\varepsilon_0}`
 	}
 ];
