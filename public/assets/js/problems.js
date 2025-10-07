@@ -762,7 +762,7 @@ let problems = [
 		"latex": String.raw`\Delta t=\frac{\Delta t_{0}}{\sqrt{1-\frac{v^{2}}{c^{2}}}}`
 	},
 	{
-		"title": "Gauss's Flux Theorem (integral form)",
+		"title": "Gauss's Flux Theorem (Integral Form)",
 		"description": "Use the divergence theorem to get to the differential form.",
 		"latex": String.raw`\oiint_S\mathbf{E}\cdot\mathrm{d}\mathbf{A}=\frac{Q}{\varepsilon_{0}}`
 	},
@@ -912,11 +912,6 @@ let problems = [
 		"latex": String.raw`\mathcal{L}_X = \mathrm{d} \circ \iota_X + \iota_X \circ \mathrm{d}`
 	},
 	{
-		"title": "Gauss's Law",
-		"description": "AP Physics C E&M",
-		"latex": String.raw`\Phi_E = \oiint_S \mathbf{E} \cdot \mathrm{d}\mathbf{A} = \frac{Q}{\varepsilon_0}`
-	},
-	{
 		"title": "Curvature Equation",
 		"description": "Simple yet tedious",
 		"latex": String.raw`\kappa = \frac{\|\mathbf{r}'(t) \times \mathbf{r}''(t)\|}{\|\mathbf{r}'(t)\|^3}`
@@ -941,5 +936,10 @@ let problems = [
 		"title": "The Callan-Symanzik Equation",
 		"description": "Quantum stuff that's too complicated!",
 		"latex": String.raw`\left[M\frac{\partial}{\partial M}+\beta(g)\frac{\partial}{\partial g}+n\gamma\right]G^n(x_1,x_2,\dots,x_n;M,g)=0`
-	}
+	},
+    {
+        "title": String.raw`\(\ \varepsilon-\delta\) Definition of a Limit`,
+        "description": "Calculus I student's worst nightmare",
+        "latex": String.raw`\forall x \in \mathbb{R}, \forall\varepsilon > 0, \exists\delta > 0 : 0 < |x - a| < \delta \Longrightarrow |f(x) - L| < \varepsilon`
+    }
 ];
