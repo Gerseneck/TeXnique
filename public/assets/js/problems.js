@@ -945,6 +945,6 @@ let problems = [
     {
         "title": "Difference of Squares",
         "description": "Classic.",
-        "latex": String.raw`a^2 - b^2 = (a+b)(a-b)`
+        "latex": String.raw`a^2 - b^2 = (a + b)(a - b)`
     }
 ];
