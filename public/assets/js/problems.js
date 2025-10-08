@@ -1,11 +1,6 @@
 // Have a problem to add? Submit it here: https://forms.gle/DXjPeTL5DbJBhKRv8
 
 let problems = [
-    {
-        "title": "Difference of Squares",
-        "description": "Classic.",
-        "latex": String.raw`a^2 - b^2 = (a+b)(a-b)`
-    },
 	{
 		"title": "Quadratic Formula",
 		"description": "Classic.",
@@ -945,6 +940,11 @@ let problems = [
     {
         "title": String.raw`\(\ \varepsilon-\delta\) Definition of a Limit`,
         "description": "Calculus I student's worst nightmare",
-        "latex": String.raw`\forall x \in \mathbb{R}, \forall\varepsilon > 0, \exists\delta > 0 : 0 < |x - a| < \delta \Longrightarrow |f(x) - L| < \varepsilon`
+        "latex": String.raw`\forall x \in \mathbb{R}, \forall\varepsilon > 0, \exists\delta > 0 : 0 < |x - a| < \delta \implies |f(x) - L| < \varepsilon`
+    },
+    {
+        "title": "Difference of Squares",
+        "description": "Classic.",
+        "latex": String.raw`a^2 - b^2 = (a+b)(a-b)`
     }
 ];
