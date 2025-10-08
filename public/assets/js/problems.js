@@ -1,6 +1,11 @@
 // Have a problem to add? Submit it here: https://forms.gle/DXjPeTL5DbJBhKRv8
 
 let problems = [
+    {
+        "title": "Difference of Squares",
+        "description": "Classic.",
+        "latex": String.raw`a^2 - b^2 = (a+b)(a-b)`
+    },
 	{
 		"title": "Quadratic Formula",
 		"description": "Classic.",
